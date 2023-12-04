@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #004d60;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Ajusta el tamaño del logo según tus preferencias */
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px; /* Ajusta el tamaño de la fuente del título según tus preferencias */
+  margin: 0;
+  color: #0fbfeb; /* Cambia el color del título según tus preferencias */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu-icon {
+  color: #333;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #008cba;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #c9604b;
+}
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.info {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.info h2 {
+  color: #333;
+}
+
+.info p {
+  color: #666;
+}
+.image1 {
+  float: left;
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image2 {
+  float: right;
+  margin-left: 10px;
+  width: 300px;
+  height: auto;
+  border: 2px solid #f00;
+  border-radius: 10px;
+}
+
+video {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
